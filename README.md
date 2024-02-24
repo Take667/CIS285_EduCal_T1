@@ -1,1 +1,1 @@
-This is the flow chart of the for the plans for settings Specification branch
+This is the flow chart of the for plans for setting Specification branch
