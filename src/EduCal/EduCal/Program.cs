@@ -14,6 +14,7 @@ namespace EduCal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            frmMain frmMain = new frmMain();
 
             // Instantiate the frmAbout form
             frmAbout aboutForm = new frmAbout();
@@ -21,8 +22,8 @@ namespace EduCal
 
 
             // Show the frmAbout form
-            Application.Run(aboutForm);
-
+           Application.Run(aboutForm);
+            Application.Run(frmMain);
 
             // You can add menu items to the MenuStrip here if needed
 
