@@ -1,27 +1,36 @@
 using System.IO;
-using System.Text.Json;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace EduCal
 {
     public static class FileHelper
     {
-        public static void SaveToFile(string fileName, object data)
+        public static void SaveToFile<T>(string fileName, T data)
         {
-            string jsonString = JsonSerializer.Serialize(data);
+            // Create an XmlSerializer for the specified type
+            XmlSerializer serializer = new XmlSerializer(typeof(T));
 
-            // Write the JSON string to a file
-            File.WriteAllText(fileName, jsonString);
+            // Create a StreamWriter to write the XML data to the file
+            using (StreamWriter writer = new StreamWriter(fileName))
+            {
+                // Serialize the data to XML and write it to the file
+                serializer.Serialize(writer, data);
+            }
         }
 
         public static T LoadFromFile<T>(string fileName)
         {
-            // Read the JSON string from the file
-            string jsonString = File.ReadAllText(fileName);
+            // Create an XmlSerializer for the specified type
+            XmlSerializer serializer = new XmlSerializer(typeof(T));
 
-            // Deserialize the JSON string to the specified type
-            T data = JsonSerializer.Deserialize<T>(jsonString);
-
-            return data;
+            // Create a StreamReader to read the XML data from the file
+            using (StreamReader reader = new StreamReader(fileName))
+            {
+                // Deserialize the XML data to the specified type
+                T data = (T)serializer.Deserialize(reader);
+                return data;
+            }
         }
     }
 }
