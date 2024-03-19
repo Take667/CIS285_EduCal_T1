@@ -1,24 +1,47 @@
-﻿using System;
+﻿using Magnum.FileSystem;
+using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
+using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace EduCaldraft2
 {
     internal class FileHandler
     {
-        
-        public string FileName { get; set; }
-        public static void SaveToFile(string content, int year)
-        {
-            string fileName = $"Calendar_{year}.txt";
 
-            // Save to the application's directory
-            File.WriteAllText(fileName, content);
-        }
+
+/// Save to the application's directory
+
+
+        public string FileName { get; set; }
+        public string FileExtension { get; set; }
+        = string.Empty;
+        public FileHandler() { }
+
+        public static void SaveToFile(SaveFileDialog saveFileDialog) { }
+
+        string fileName = $"Calendar_{year}.txt";
+        private static object year;
+        private static object month;
+        private static object day;
+
+
+        
     }
 }
+
+
     
+
+
+
+
+
+
+
+
 

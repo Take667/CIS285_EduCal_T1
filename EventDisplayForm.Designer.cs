@@ -1,10 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace EduCal
 {
-    public static class EventManager
+    public static class EduCal
+
     {
+        static void Main()
+        {
+
+        }
         public static List<EventForm> EventsList { get; } = new List<EventForm>();
         public static object EventList { get; private set; }
 
