@@ -1,36 +1,24 @@
-﻿using System.IO;
-using System.Xml;
-using System.Xml.Serialization;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace EduCal
+namespace EduCaldraft2
 {
-    public static class FileHelper
+    internal class FileHandler
     {
-        public static void SaveToFile<T>(string fileName, T data)
+        
+        public string FileName { get; set; }
+        public static void SaveToFile(string content, int year)
         {
-            // Create an XmlSerializer for the specified type
-            XmlSerializer serializer = new XmlSerializer(typeof(T));
+            string fileName = $"Calendar_{year}.txt";
 
-            // Create a StreamWriter to write the XML data to the file
-            using (StreamWriter writer = new StreamWriter(fileName))
-            {
-                // Serialize the data to XML and write it to the file
-                serializer.Serialize(writer, data);
-            }
-        }
-
-        public static T LoadFromFile<T>(string fileName)
-        {
-            // Create an XmlSerializer for the specified type
-            XmlSerializer serializer = new XmlSerializer(typeof(T));
-
-            // Create a StreamReader to read the XML data from the file
-            using (StreamReader reader = new StreamReader(fileName))
-            {
-                // Deserialize the XML data to the specified type
-                T data = (T)serializer.Deserialize(reader);
-                return data;
-            }
+            // Save to the application's directory
+            File.WriteAllText(fileName, content);
         }
     }
 }
+    
+

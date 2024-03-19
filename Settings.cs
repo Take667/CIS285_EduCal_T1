@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EduCaldraft2
 {
-    public partial class EventForm : Form
+    public partial class Settings : Form
     {
-        public EventForm()
+        public Settings()
         {
             InitializeComponent();
         }

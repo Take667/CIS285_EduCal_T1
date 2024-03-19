@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 
-namespace About
+namespace EduCal
 {
-    internal class Class1
+    public static class FileHandler
     {
+        public static void SaveToFile(string content, int year)
+        {
+            string fileName = $"Calendar_{year}.txt";
+
+            // Save to the application's directory
+            File.WriteAllText(fileName, content);
+        }
     }
 }
