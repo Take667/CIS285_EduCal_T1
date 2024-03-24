@@ -47,3 +47,21 @@ C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal - Copy - this one\src\EduCal\Edu
 C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal - Copy - this one\src\EduCal\EduCal\obj\Debug\EduCal.pdb
 C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal - Copy - this one\bin\Debug\EduCal.pdb
 C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal - Copy - this one\bin\Debug\en-US\EduCal.resources.dll
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\bin\Debug\EduCal.exe.config
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\bin\Debug\EduCal.exe
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\bin\Debug\EduCal.pdb
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\bin\Debug\en-US\EduCal.resources.dll
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.csproj.AssemblyReference.cache
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.csproj.SuggestedBindingRedirects.cache
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.exe.config
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.EventForm.resources
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.frmAbout.resources
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.frmMain.resources
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.Properties.Resources.resources
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.frmMain.en-US.resources
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.csproj.GenerateResource.cache
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.csproj.CoreCompileInputs.cache
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\en-US\EduCal.resources.dll
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.csproj.CopyComplete
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.exe
+C:\Users\ssawyer\Documents\GitHub\CIS285_EduCal_T1\src\EduCal\EduCal\obj\Debug\EduCal.pdb
