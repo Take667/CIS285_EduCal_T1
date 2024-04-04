@@ -1,0 +1,9 @@
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal (7).csproj.AssemblyReference.cache
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal.AboutBox1.resources
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal.frmMain.resources
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal.Form1.resources
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal.Form2.resources
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal.Resources.resources
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal.frmMain.en-US.resources
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal (7).csproj.GenerateResource.cache
+C:\Users\Tyas Chaney\Downloads\Draft3\obj\Debug\EduCal.EventDisplay.resources
