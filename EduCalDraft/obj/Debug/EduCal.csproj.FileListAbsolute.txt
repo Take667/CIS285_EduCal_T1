@@ -1,0 +1,8 @@
+C:\Users\khali\Downloads\obj\Debug\EduCal.csproj.AssemblyReference.cache
+C:\Users\khali\Downloads\obj\Debug\EduCal.Form1.resources
+C:\Users\khali\Downloads\obj\Debug\EduCal.frmMain.resources
+C:\Users\khali\Downloads\obj\Debug\EduCal.Menu.resources
+C:\Users\khali\Downloads\obj\Debug\EduCal.Resources.resources
+C:\Users\khali\Downloads\obj\Debug\EduCal.Settings.resources
+C:\Users\khali\Downloads\obj\Debug\EduCal.frmMain.en-US.resources
+C:\Users\khali\Downloads\obj\Debug\EduCal.csproj.GenerateResource.cache
