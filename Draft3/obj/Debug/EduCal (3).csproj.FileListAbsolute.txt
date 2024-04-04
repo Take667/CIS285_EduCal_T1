@@ -1,0 +1,11 @@
+C:\WORKING\Draft3\obj\Debug\EduCal (3).csproj.AssemblyReference.cache
+C:\WORKING\Draft3\obj\Debug\EduCal (3).csproj.SuggestedBindingRedirects.cache
+C:\WORKING\Draft3\obj\Debug\EduCaldraft2.Form1.resources
+C:\WORKING\Draft3\obj\Debug\EduCal.EventForm.resources
+C:\WORKING\Draft3\obj\Debug\EduCal.Resources.resources
+C:\WORKING\Draft3\obj\Debug\YourNamespace.frmAbout.resources
+C:\WORKING\Draft3\obj\Debug\EduCal.Settings.resources
+C:\WORKING\Draft3\obj\Debug\EduCaldraft2.Settings.resources
+C:\WORKING\Draft3\obj\Debug\EduCaldraft2.Form1.en-US.resources
+C:\WORKING\Draft3\obj\Debug\EduCal (3).csproj.GenerateResource.cache
+C:\WORKING\Draft3\obj\Debug\EduCal (3).csproj.CoreCompileInputs.cache

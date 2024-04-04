@@ -37,6 +37,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Text.Json, Version=7.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,52 +50,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.Designer.cs" />
     <Compile Include="AssemblyInfo %281%29.cs" />
-    <Compile Include="Class1 %282%29.cs" />
     <Compile Include="EduCalObject.cs" />
     <Compile Include="Education Calendar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Education Calendar.Designer.cs" />
+    <Compile Include="Education Calendar.Designer.cs">
+      <DependentUpon>Education Calendar.cs</DependentUpon>
+    </Compile>
     <Compile Include="EventDisplayForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EventDisplayForm.Designer.cs" />
-    <Compile Include="EventDisplayForm1.cs" />
-    <Compile Include="EventForm.Designer.cs" />
+    <Compile Include="EventDisplayForm.Designer.cs">
+      <DependentUpon>EventDisplayForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EventManager %281%29.cs" />
     <Compile Include="Export.cs" />
     <Compile Include="FileHandler.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Menu %282%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu.Designer %281%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Program %282%29.cs" />
     <Compile Include="Resources.Designer.cs" />
+    <Compile Include="Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings %281%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Settings.Designer.cs" />
-    <EmbeddedResource Include="About.resx" />
     <EmbeddedResource Include="Education Calendar.en-US.resx">
       <DependentUpon>Education Calendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Education Calendar.resx">
       <DependentUpon>Education Calendar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EventDisplayForm.resx" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="EventDisplayForm.resx">
+      <DependentUpon>EventDisplayForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources.resx" />
-    <EmbeddedResource Include="Settings %281%29.resx" />
-    <EmbeddedResource Include="Settings.resx" />
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings %281%29.resx">
+      <DependentUpon>Settings %281%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Settings.settings" />
   </ItemGroup>
   <ItemGroup>
