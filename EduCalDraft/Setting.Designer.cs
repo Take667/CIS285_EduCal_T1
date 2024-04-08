@@ -1,4 +1,5 @@
-﻿namespace EduCal
+//This is the design of the settings form.
+namespace EduCal
 {
     partial class Setting
     {
