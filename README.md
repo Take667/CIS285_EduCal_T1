@@ -2,7 +2,6 @@
 Joshua Sawyer
 Carstarphen Shamar 
 Chaney Tyas 
-Haines Coleman 
 Jeane Andrew
 Knight Tony
 
