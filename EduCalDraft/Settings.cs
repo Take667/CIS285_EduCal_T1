@@ -1,4 +1,5 @@
-﻿using System;
+//This is the Settings file. It uses the windows forms. 
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
