@@ -20,11 +20,7 @@ namespace EduCal
             lblEventDetails = new Label();
             lblEventDetails.Text = $"Events for {date}:";
 
-            foreach (var ev in events)
-            {
-                // Customize the format based on your event properties
-                lblEventDetails.Text += $"\n- {ev.Title}: {ev.ShortDescription}";
-            }
+          
 
             this.Controls.Add(lblEventDetails);
         }
