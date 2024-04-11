@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace EduCal
 {
-    public partial class Calendar : Form
+    public partial class Calendarform : Form
     {
         private System.Windows.Forms.Label lblMonthYear;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
@@ -15,7 +15,7 @@ namespace EduCal
 
         private DateTime currentMonth;
 
-        public Calendar()
+        public Calendarform()
         {
             InitializeComponent();
             currentMonth = DateTime.Now;
