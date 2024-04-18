@@ -80,22 +80,7 @@ namespace EduCal
             eventDisplayForm.Show();
         }
 
-        private List<EventForm> GetEventsForDate(DateTime selectedDate, List<EventForm> eventsList)
-        {
-            List<EventForm> eventsForSelectedDay = new List<EventForm>();
-
-            foreach (EventForm eventForm in eventsList)
-            {
-                // Check if the day of the month is the same
-                if (eventForm.StartDate.Date.Day == selectedDate.Day)
-                {
-                    // TODO: Add any additional conditions if needed
-                    eventsForSelectedDay.Add(eventForm);
-                }
-            }
-
-            return eventsForSelectedDay;
-        }
+       
 
 
         private void btnNextMonth_Click(object sender, EventArgs e)
