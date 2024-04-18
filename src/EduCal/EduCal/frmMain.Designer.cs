@@ -19,23 +19,23 @@ namespace EduCal
 
 
             ToolStripMenuItem newCalendarItem = new ToolStripMenuItem("New Calendar");
-            newCalendarItem.Click += NewCalendar_Click;
+            
 
             ToolStripMenuItem newEventItem = new ToolStripMenuItem("New Event");
             
-            newEventItem.Click += NewEvent_Click;
+        
 
             ToolStripMenuItem openFileItem = new ToolStripMenuItem("Open");
-            openFileItem.Click += OpenFile_Click;
+        
             ToolStripMenuItem saveFileItem = new ToolStripMenuItem("Save");
-            saveFileItem.Click += SaveFile_Click;
+            
 
 
             ToolStripMenuItem saveAsFileItem = new ToolStripMenuItem("Save As...");
-            saveAsFileItem.Click += SaveAsFile_Click; // Event handler for Save As
+            
 
             ToolStripMenuItem exitItem = new ToolStripMenuItem("Exit");
-            exitItem.Click += Exit_Click; // Event handler for Exit
+    
 
             fileMenu.DropDownItems.Add(newCalendarItem);
             fileMenu.DropDownItems.Add(newEventItem);
@@ -53,7 +53,7 @@ namespace EduCal
             ToolStripMenuItem eventForm = new ToolStripMenuItem("Event Form");
             eventForm.Click += NewEventForm_Click;
             ToolStripMenuItem settings = new ToolStripMenuItem("Settings");
-            settings.Click += NewSettings_Click;
+            
 
             editMenu.DropDownItems.Add(eventForm);
             editMenu.DropDownItems.Add(settings);
@@ -62,7 +62,7 @@ namespace EduCal
             ToolStripMenuItem aboutMenu = new ToolStripMenuItem("About");
 
             ToolStripMenuItem aboutForm = new ToolStripMenuItem("About Form");
-            aboutForm.Click += NewAboutForm_Click;
+    
             aboutMenu.DropDownItems.Add(aboutForm);
             menuStrip.Items.Add(aboutMenu);
 
