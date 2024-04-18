@@ -58,25 +58,6 @@ namespace EduCal
 
 
 
-        // Method to retrieve the created event
-        public EventForm GetEvent()
-        {
-            // Create and populate an Event instance with the form data
-            EventForm newEvent = new EventForm
-            {
-                Title = this.Title,
-                ShortDescription = this.ShortDescription,
-                LongDescription = this.LongDescription,
-                StartDate = this.StartDate,
-                EndDate = this.EndDate,
-                Location = this.Location,
-                Recurrence = this.Recurrence,
-                Color = this.Color,
-                Categories = this.Categories
-            };
-
-            return newEvent;
-        }
 
 
 
