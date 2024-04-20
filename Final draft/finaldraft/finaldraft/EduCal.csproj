@@ -55,6 +55,9 @@
       <DependentUpon>AboutBox2.cs</DependentUpon>
     </Compile>
     <Compile Include="AssemblyInfo %282%29.cs" />
+    <Compile Include="CalendarCode.cs" />
+    <Compile Include="AddEventCode.cs" />
+    <Compile Include="ExportCode.cs" />
     <Compile Include="Event.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,8 +82,14 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuCode.cs" />
     <Compile Include="Program %283%29.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources %281%29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources %281%29.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AboutBox2.resx">
       <DependentUpon>AboutBox2.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,15 +117,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Properties\Settings.settings">
+    <EmbeddedResource Include="Resources %281%29.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources %281%29.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Settings.settings" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

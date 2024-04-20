@@ -6,3 +6,5 @@ C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.Settings.resources
 C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.frmMain.resources
 C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.frmMain.en-US.resources
 C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.csproj.GenerateResource.cache
+C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.Resources (1).resources
+C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.UserControl1.resources

@@ -24,478 +24,418 @@
 		/// </summary>
 		private void InitializeComponent () {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.panel37 = new System.Windows.Forms.Panel();
-            this.panel38 = new System.Windows.Forms.Panel();
-            this.lbMonth = new System.Windows.Forms.Label();
-            this.lbSun = new System.Windows.Forms.Label();
-            this.lbMon = new System.Windows.Forms.Label();
-            this.lbTues = new System.Windows.Forms.Label();
-            this.lbWeds = new System.Windows.Forms.Label();
-            this.lbThurs = new System.Windows.Forms.Label();
-            this.lbFri = new System.Windows.Forms.Label();
-            this.lbSat = new System.Windows.Forms.Label();
-            this.btnPreviousMonth = new System.Windows.Forms.Button();
-            this.btnNextMonth = new System.Windows.Forms.Button();
-            this.panel39 = new System.Windows.Forms.Panel();
-            this.lbEventList = new System.Windows.Forms.Label();
-            this.lbEvent1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lbEvent2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.lbEvent3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.lbEvent4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.panel39.SuspendLayout();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.buttonNextMonth = new System.Windows.Forms.Button();
+            this.buttonPreviousMonth = new System.Windows.Forms.Button();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.panel40 = new System.Windows.Forms.Panel();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.panel42 = new System.Windows.Forms.Panel();
+            this.panel43 = new System.Windows.Forms.Panel();
+            this.panel44 = new System.Windows.Forms.Panel();
+            this.panel45 = new System.Windows.Forms.Panel();
+            this.panel46 = new System.Windows.Forms.Panel();
+            this.panel47 = new System.Windows.Forms.Panel();
+            this.panel48 = new System.Windows.Forms.Panel();
+            this.panel49 = new System.Windows.Forms.Panel();
+            this.panel50 = new System.Windows.Forms.Panel();
+            this.panel51 = new System.Windows.Forms.Panel();
+            this.panel52 = new System.Windows.Forms.Panel();
+            this.panel53 = new System.Windows.Forms.Panel();
+            this.panel54 = new System.Windows.Forms.Panel();
+            this.panel55 = new System.Windows.Forms.Panel();
+            this.panel56 = new System.Windows.Forms.Panel();
+            this.panel57 = new System.Windows.Forms.Panel();
+            this.panel58 = new System.Windows.Forms.Panel();
+            this.panel59 = new System.Windows.Forms.Panel();
+            this.panel60 = new System.Windows.Forms.Panel();
+            this.panel61 = new System.Windows.Forms.Panel();
+            this.panel62 = new System.Windows.Forms.Panel();
+            this.panel63 = new System.Windows.Forms.Panel();
+            this.panel64 = new System.Windows.Forms.Panel();
+            this.panel65 = new System.Windows.Forms.Panel();
+            this.panel66 = new System.Windows.Forms.Panel();
+            this.panel67 = new System.Windows.Forms.Panel();
+            this.panel68 = new System.Windows.Forms.Panel();
+            this.panel69 = new System.Windows.Forms.Panel();
+            this.panel70 = new System.Windows.Forms.Panel();
+            this.panel71 = new System.Windows.Forms.Panel();
+            this.panel72 = new System.Windows.Forms.Panel();
+            this.panel73 = new System.Windows.Forms.Panel();
+            this.panel74 = new System.Windows.Forms.Panel();
+            this.labelSun = new System.Windows.Forms.Label();
+            this.labelMon = new System.Windows.Forms.Label();
+            this.labelTues = new System.Windows.Forms.Label();
+            this.labelWeds = new System.Windows.Forms.Label();
+            this.labelThurs = new System.Windows.Forms.Label();
+            this.labelFri = new System.Windows.Forms.Label();
+            this.labelSat = new System.Windows.Forms.Label();
+            this.labelMonth = new System.Windows.Forms.Label();
+            this.labelEvent1 = new System.Windows.Forms.Label();
+            this.labelEvent2 = new System.Windows.Forms.Label();
+            this.labelEvent3 = new System.Windows.Forms.Label();
+            this.labelEvent4 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.labelEventLists = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panel28.SuspendLayout();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Controls.Add(this.panel3);
-            this.flowLayoutPanel1.Controls.Add(this.panel4);
-            this.flowLayoutPanel1.Controls.Add(this.panel5);
-            this.flowLayoutPanel1.Controls.Add(this.panel6);
-            this.flowLayoutPanel1.Controls.Add(this.panel7);
-            this.flowLayoutPanel1.Controls.Add(this.panel8);
-            this.flowLayoutPanel1.Controls.Add(this.panel9);
-            this.flowLayoutPanel1.Controls.Add(this.panel10);
-            this.flowLayoutPanel1.Controls.Add(this.panel11);
-            this.flowLayoutPanel1.Controls.Add(this.panel12);
-            this.flowLayoutPanel1.Controls.Add(this.panel13);
-            this.flowLayoutPanel1.Controls.Add(this.panel14);
-            this.flowLayoutPanel1.Controls.Add(this.panel15);
-            this.flowLayoutPanel1.Controls.Add(this.panel16);
-            this.flowLayoutPanel1.Controls.Add(this.panel17);
-            this.flowLayoutPanel1.Controls.Add(this.panel18);
-            this.flowLayoutPanel1.Controls.Add(this.panel19);
-            this.flowLayoutPanel1.Controls.Add(this.panel27);
-            this.flowLayoutPanel1.Controls.Add(this.panel20);
-            this.flowLayoutPanel1.Controls.Add(this.panel21);
-            this.flowLayoutPanel1.Controls.Add(this.panel22);
-            this.flowLayoutPanel1.Controls.Add(this.panel23);
-            this.flowLayoutPanel1.Controls.Add(this.panel24);
-            this.flowLayoutPanel1.Controls.Add(this.panel25);
-            this.flowLayoutPanel1.Controls.Add(this.panel26);
-            this.flowLayoutPanel1.Controls.Add(this.panel29);
-            this.flowLayoutPanel1.Controls.Add(this.panel30);
-            this.flowLayoutPanel1.Controls.Add(this.panel31);
-            this.flowLayoutPanel1.Controls.Add(this.panel32);
-            this.flowLayoutPanel1.Controls.Add(this.panel33);
-            this.flowLayoutPanel1.Controls.Add(this.panel34);
-            this.flowLayoutPanel1.Controls.Add(this.panel35);
-            this.flowLayoutPanel1.Controls.Add(this.panel36);
-            this.flowLayoutPanel1.Controls.Add(this.panel37);
-            this.flowLayoutPanel1.Controls.Add(this.panel38);
-            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel4, "panel4");
-            this.panel4.Name = "panel4";
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.flowLayoutPanel2.Controls.Add(this.panel40);
+            this.flowLayoutPanel2.Controls.Add(this.panel41);
+            this.flowLayoutPanel2.Controls.Add(this.panel42);
+            this.flowLayoutPanel2.Controls.Add(this.panel43);
+            this.flowLayoutPanel2.Controls.Add(this.panel44);
+            this.flowLayoutPanel2.Controls.Add(this.panel45);
+            this.flowLayoutPanel2.Controls.Add(this.panel46);
+            this.flowLayoutPanel2.Controls.Add(this.panel47);
+            this.flowLayoutPanel2.Controls.Add(this.panel48);
+            this.flowLayoutPanel2.Controls.Add(this.panel49);
+            this.flowLayoutPanel2.Controls.Add(this.panel50);
+            this.flowLayoutPanel2.Controls.Add(this.panel51);
+            this.flowLayoutPanel2.Controls.Add(this.panel52);
+            this.flowLayoutPanel2.Controls.Add(this.panel53);
+            this.flowLayoutPanel2.Controls.Add(this.panel54);
+            this.flowLayoutPanel2.Controls.Add(this.panel55);
+            this.flowLayoutPanel2.Controls.Add(this.panel56);
+            this.flowLayoutPanel2.Controls.Add(this.panel57);
+            this.flowLayoutPanel2.Controls.Add(this.panel58);
+            this.flowLayoutPanel2.Controls.Add(this.panel59);
+            this.flowLayoutPanel2.Controls.Add(this.panel60);
+            this.flowLayoutPanel2.Controls.Add(this.panel61);
+            this.flowLayoutPanel2.Controls.Add(this.panel62);
+            this.flowLayoutPanel2.Controls.Add(this.panel63);
+            this.flowLayoutPanel2.Controls.Add(this.panel64);
+            this.flowLayoutPanel2.Controls.Add(this.panel65);
+            this.flowLayoutPanel2.Controls.Add(this.panel66);
+            this.flowLayoutPanel2.Controls.Add(this.panel67);
+            this.flowLayoutPanel2.Controls.Add(this.panel68);
+            this.flowLayoutPanel2.Controls.Add(this.panel69);
+            this.flowLayoutPanel2.Controls.Add(this.panel70);
+            this.flowLayoutPanel2.Controls.Add(this.panel71);
+            this.flowLayoutPanel2.Controls.Add(this.panel72);
+            this.flowLayoutPanel2.Controls.Add(this.panel73);
+            this.flowLayoutPanel2.Controls.Add(this.panel74);
+            resources.ApplyResources(this.flowLayoutPanel2, "flowLayoutPanel2");
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             // 
-            // panel5
-            // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel5, "panel5");
-            this.panel5.Name = "panel5";
+            // buttonNextMonth
             // 
-            // panel6
+            resources.ApplyResources(this.buttonNextMonth, "buttonNextMonth");
+            this.buttonNextMonth.Name = "buttonNextMonth";
+            this.buttonNextMonth.UseVisualStyleBackColor = true;
             // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel6, "panel6");
-            this.panel6.Name = "panel6";
+            // buttonPreviousMonth
             // 
-            // panel7
+            resources.ApplyResources(this.buttonPreviousMonth, "buttonPreviousMonth");
+            this.buttonPreviousMonth.Name = "buttonPreviousMonth";
+            this.buttonPreviousMonth.UseVisualStyleBackColor = true;
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel7, "panel7");
-            this.panel7.Name = "panel7";
+            // panel28
             // 
-            // panel8
+            this.panel28.BackColor = System.Drawing.SystemColors.Info;
+            this.panel28.Controls.Add(this.labelMonth);
+            resources.ApplyResources(this.panel28, "panel28");
+            this.panel28.Name = "panel28";
             // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel8, "panel8");
-            this.panel8.Name = "panel8";
+            // panel40
             // 
-            // panel9
+            resources.ApplyResources(this.panel40, "panel40");
+            this.panel40.Name = "panel40";
             // 
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel9, "panel9");
-            this.panel9.Name = "panel9";
+            // panel41
             // 
-            // panel10
+            resources.ApplyResources(this.panel41, "panel41");
+            this.panel41.Name = "panel41";
             // 
-            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel10, "panel10");
-            this.panel10.Name = "panel10";
+            // panel42
             // 
-            // panel11
+            resources.ApplyResources(this.panel42, "panel42");
+            this.panel42.Name = "panel42";
             // 
-            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel11, "panel11");
-            this.panel11.Name = "panel11";
+            // panel43
             // 
-            // panel12
+            resources.ApplyResources(this.panel43, "panel43");
+            this.panel43.Name = "panel43";
             // 
-            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel12, "panel12");
-            this.panel12.Name = "panel12";
+            // panel44
             // 
-            // panel13
+            resources.ApplyResources(this.panel44, "panel44");
+            this.panel44.Name = "panel44";
             // 
-            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel13, "panel13");
-            this.panel13.Name = "panel13";
+            // panel45
             // 
-            // panel14
+            resources.ApplyResources(this.panel45, "panel45");
+            this.panel45.Name = "panel45";
             // 
-            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel14, "panel14");
-            this.panel14.Name = "panel14";
-            this.panel14.Paint += new System.Windows.Forms.PaintEventHandler(this.panel14_Paint);
+            // panel46
             // 
-            // panel15
+            resources.ApplyResources(this.panel46, "panel46");
+            this.panel46.Name = "panel46";
             // 
-            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel15, "panel15");
-            this.panel15.Name = "panel15";
+            // panel47
             // 
-            // panel16
+            resources.ApplyResources(this.panel47, "panel47");
+            this.panel47.Name = "panel47";
             // 
-            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel16, "panel16");
-            this.panel16.Name = "panel16";
+            // panel48
             // 
-            // panel17
+            resources.ApplyResources(this.panel48, "panel48");
+            this.panel48.Name = "panel48";
             // 
-            this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel17, "panel17");
-            this.panel17.Name = "panel17";
+            // panel49
             // 
-            // panel18
+            resources.ApplyResources(this.panel49, "panel49");
+            this.panel49.Name = "panel49";
             // 
-            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel18, "panel18");
-            this.panel18.Name = "panel18";
+            // panel50
             // 
-            // panel19
+            resources.ApplyResources(this.panel50, "panel50");
+            this.panel50.Name = "panel50";
             // 
-            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel19, "panel19");
-            this.panel19.Name = "panel19";
+            // panel51
             // 
-            // panel27
+            resources.ApplyResources(this.panel51, "panel51");
+            this.panel51.Name = "panel51";
             // 
-            resources.ApplyResources(this.panel27, "panel27");
-            this.panel27.Name = "panel27";
+            // panel52
             // 
-            // panel20
+            resources.ApplyResources(this.panel52, "panel52");
+            this.panel52.Name = "panel52";
             // 
-            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel20, "panel20");
-            this.panel20.Name = "panel20";
-            this.panel20.Paint += new System.Windows.Forms.PaintEventHandler(this.panel20_Paint);
+            // panel53
             // 
-            // panel21
+            resources.ApplyResources(this.panel53, "panel53");
+            this.panel53.Name = "panel53";
             // 
-            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel21, "panel21");
-            this.panel21.Name = "panel21";
+            // panel54
             // 
-            // panel22
+            resources.ApplyResources(this.panel54, "panel54");
+            this.panel54.Name = "panel54";
+            this.panel54.Paint += new System.Windows.Forms.PaintEventHandler(this.panel54_Paint);
             // 
-            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel22, "panel22");
-            this.panel22.Name = "panel22";
+            // panel55
             // 
-            // panel23
+            resources.ApplyResources(this.panel55, "panel55");
+            this.panel55.Name = "panel55";
             // 
-            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel23, "panel23");
-            this.panel23.Name = "panel23";
+            // panel56
             // 
-            // panel24
+            resources.ApplyResources(this.panel56, "panel56");
+            this.panel56.Name = "panel56";
             // 
-            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel24, "panel24");
-            this.panel24.Name = "panel24";
+            // panel57
             // 
-            // panel25
+            resources.ApplyResources(this.panel57, "panel57");
+            this.panel57.Name = "panel57";
             // 
-            this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel25, "panel25");
-            this.panel25.Name = "panel25";
+            // panel58
             // 
-            // panel26
+            resources.ApplyResources(this.panel58, "panel58");
+            this.panel58.Name = "panel58";
             // 
-            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel26, "panel26");
-            this.panel26.Name = "panel26";
+            // panel59
             // 
-            // panel29
+            resources.ApplyResources(this.panel59, "panel59");
+            this.panel59.Name = "panel59";
             // 
-            this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel29, "panel29");
-            this.panel29.Name = "panel29";
+            // panel60
             // 
-            // panel30
+            resources.ApplyResources(this.panel60, "panel60");
+            this.panel60.Name = "panel60";
             // 
-            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel30, "panel30");
-            this.panel30.Name = "panel30";
+            // panel61
             // 
-            // panel31
+            resources.ApplyResources(this.panel61, "panel61");
+            this.panel61.Name = "panel61";
             // 
-            this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel31, "panel31");
-            this.panel31.Name = "panel31";
+            // panel62
             // 
-            // panel32
+            resources.ApplyResources(this.panel62, "panel62");
+            this.panel62.Name = "panel62";
             // 
-            this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel32, "panel32");
-            this.panel32.Name = "panel32";
+            // panel63
             // 
-            // panel33
+            resources.ApplyResources(this.panel63, "panel63");
+            this.panel63.Name = "panel63";
             // 
-            this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel33, "panel33");
-            this.panel33.Name = "panel33";
+            // panel64
             // 
-            // panel34
+            resources.ApplyResources(this.panel64, "panel64");
+            this.panel64.Name = "panel64";
             // 
-            this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel34, "panel34");
-            this.panel34.Name = "panel34";
+            // panel65
             // 
-            // panel35
+            resources.ApplyResources(this.panel65, "panel65");
+            this.panel65.Name = "panel65";
             // 
-            this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel35, "panel35");
-            this.panel35.Name = "panel35";
+            // panel66
             // 
-            // panel36
+            resources.ApplyResources(this.panel66, "panel66");
+            this.panel66.Name = "panel66";
             // 
-            this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel36, "panel36");
-            this.panel36.Name = "panel36";
+            // panel67
             // 
-            // panel37
+            resources.ApplyResources(this.panel67, "panel67");
+            this.panel67.Name = "panel67";
             // 
-            this.panel37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel37, "panel37");
-            this.panel37.Name = "panel37";
+            // panel68
             // 
-            // panel38
+            resources.ApplyResources(this.panel68, "panel68");
+            this.panel68.Name = "panel68";
             // 
-            this.panel38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel38, "panel38");
-            this.panel38.Name = "panel38";
+            // panel69
             // 
-            // lbMonth
+            resources.ApplyResources(this.panel69, "panel69");
+            this.panel69.Name = "panel69";
             // 
-            resources.ApplyResources(this.lbMonth, "lbMonth");
-            this.lbMonth.Name = "lbMonth";
+            // panel70
             // 
-            // lbSun
+            resources.ApplyResources(this.panel70, "panel70");
+            this.panel70.Name = "panel70";
             // 
-            resources.ApplyResources(this.lbSun, "lbSun");
-            this.lbSun.Name = "lbSun";
+            // panel71
             // 
-            // lbMon
+            resources.ApplyResources(this.panel71, "panel71");
+            this.panel71.Name = "panel71";
             // 
-            resources.ApplyResources(this.lbMon, "lbMon");
-            this.lbMon.Name = "lbMon";
-            this.lbMon.Click += new System.EventHandler(this.label3_Click);
+            // panel72
             // 
-            // lbTues
+            resources.ApplyResources(this.panel72, "panel72");
+            this.panel72.Name = "panel72";
             // 
-            resources.ApplyResources(this.lbTues, "lbTues");
-            this.lbTues.Name = "lbTues";
+            // panel73
             // 
-            // lbWeds
+            resources.ApplyResources(this.panel73, "panel73");
+            this.panel73.Name = "panel73";
             // 
-            resources.ApplyResources(this.lbWeds, "lbWeds");
-            this.lbWeds.Name = "lbWeds";
-            this.lbWeds.Click += new System.EventHandler(this.label5_Click);
+            // panel74
             // 
-            // lbThurs
+            resources.ApplyResources(this.panel74, "panel74");
+            this.panel74.Name = "panel74";
             // 
-            resources.ApplyResources(this.lbThurs, "lbThurs");
-            this.lbThurs.Name = "lbThurs";
+            // labelSun
             // 
-            // lbFri
+            resources.ApplyResources(this.labelSun, "labelSun");
+            this.labelSun.Name = "labelSun";
             // 
-            resources.ApplyResources(this.lbFri, "lbFri");
-            this.lbFri.Name = "lbFri";
+            // labelMon
             // 
-            // lbSat
+            resources.ApplyResources(this.labelMon, "labelMon");
+            this.labelMon.Name = "labelMon";
             // 
-            resources.ApplyResources(this.lbSat, "lbSat");
-            this.lbSat.Name = "lbSat";
+            // labelTues
             // 
-            // btnPreviousMonth
+            resources.ApplyResources(this.labelTues, "labelTues");
+            this.labelTues.Name = "labelTues";
+            this.labelTues.Click += new System.EventHandler(this.label3_Click);
             // 
-            resources.ApplyResources(this.btnPreviousMonth, "btnPreviousMonth");
-            this.btnPreviousMonth.Name = "btnPreviousMonth";
-            this.btnPreviousMonth.UseVisualStyleBackColor = true;
+            // labelWeds
             // 
-            // btnNextMonth
+            resources.ApplyResources(this.labelWeds, "labelWeds");
+            this.labelWeds.Name = "labelWeds";
             // 
-            resources.ApplyResources(this.btnNextMonth, "btnNextMonth");
-            this.btnNextMonth.Name = "btnNextMonth";
-            this.btnNextMonth.UseVisualStyleBackColor = true;
+            // labelThurs
             // 
-            // panel39
+            resources.ApplyResources(this.labelThurs, "labelThurs");
+            this.labelThurs.Name = "labelThurs";
             // 
-            this.panel39.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.panel39.Controls.Add(this.lbMonth);
-            resources.ApplyResources(this.panel39, "panel39");
-            this.panel39.Name = "panel39";
+            // labelFri
             // 
-            // lbEventList
+            resources.ApplyResources(this.labelFri, "labelFri");
+            this.labelFri.Name = "labelFri";
             // 
-            resources.ApplyResources(this.lbEventList, "lbEventList");
-            this.lbEventList.Name = "lbEventList";
+            // labelSat
             // 
-            // lbEvent1
+            resources.ApplyResources(this.labelSat, "labelSat");
+            this.labelSat.Name = "labelSat";
             // 
-            resources.ApplyResources(this.lbEvent1, "lbEvent1");
-            this.lbEvent1.Name = "lbEvent1";
+            // labelMonth
             // 
-            // textBox1
+            resources.ApplyResources(this.labelMonth, "labelMonth");
+            this.labelMonth.Name = "labelMonth";
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            // labelEvent1
             // 
-            // lbEvent2
+            resources.ApplyResources(this.labelEvent1, "labelEvent1");
+            this.labelEvent1.Name = "labelEvent1";
             // 
-            resources.ApplyResources(this.lbEvent2, "lbEvent2");
-            this.lbEvent2.Name = "lbEvent2";
+            // labelEvent2
             // 
-            // textBox2
+            resources.ApplyResources(this.labelEvent2, "labelEvent2");
+            this.labelEvent2.Name = "labelEvent2";
+            this.labelEvent2.Click += new System.EventHandler(this.label2_Click);
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            // labelEvent3
             // 
-            // lbEvent3
+            resources.ApplyResources(this.labelEvent3, "labelEvent3");
+            this.labelEvent3.Name = "labelEvent3";
             // 
-            resources.ApplyResources(this.lbEvent3, "lbEvent3");
-            this.lbEvent3.Name = "lbEvent3";
+            // labelEvent4
             // 
-            // textBox3
+            resources.ApplyResources(this.labelEvent4, "labelEvent4");
+            this.labelEvent4.Name = "labelEvent4";
+            this.labelEvent4.Click += new System.EventHandler(this.label4_Click);
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
+            // textBox5
             // 
-            // lbEvent4
+            resources.ApplyResources(this.textBox5, "textBox5");
+            this.textBox5.Name = "textBox5";
             // 
-            resources.ApplyResources(this.lbEvent4, "lbEvent4");
-            this.lbEvent4.Name = "lbEvent4";
+            // textBox6
             // 
-            // textBox4
+            resources.ApplyResources(this.textBox6, "textBox6");
+            this.textBox6.Name = "textBox6";
             // 
-            resources.ApplyResources(this.textBox4, "textBox4");
-            this.textBox4.Name = "textBox4";
+            // textBox7
+            // 
+            resources.ApplyResources(this.textBox7, "textBox7");
+            this.textBox7.Name = "textBox7";
+            // 
+            // textBox8
+            // 
+            resources.ApplyResources(this.textBox8, "textBox8");
+            this.textBox8.Name = "textBox8";
+            // 
+            // labelEventLists
+            // 
+            resources.ApplyResources(this.labelEventLists, "labelEventLists");
+            this.labelEventLists.Name = "labelEventLists";
             // 
             // frmMain
             // 
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.lbEvent4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.lbEvent3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.lbEvent2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lbEvent1);
-            this.Controls.Add(this.lbEventList);
-            this.Controls.Add(this.panel39);
-            this.Controls.Add(this.btnNextMonth);
-            this.Controls.Add(this.btnPreviousMonth);
-            this.Controls.Add(this.lbSat);
-            this.Controls.Add(this.lbFri);
-            this.Controls.Add(this.lbThurs);
-            this.Controls.Add(this.lbWeds);
-            this.Controls.Add(this.lbTues);
-            this.Controls.Add(this.lbMon);
-            this.Controls.Add(this.lbSun);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
+            this.Controls.Add(this.labelEventLists);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.labelEvent4);
+            this.Controls.Add(this.labelEvent3);
+            this.Controls.Add(this.labelEvent2);
+            this.Controls.Add(this.labelEvent1);
+            this.Controls.Add(this.labelSat);
+            this.Controls.Add(this.labelFri);
+            this.Controls.Add(this.labelThurs);
+            this.Controls.Add(this.labelWeds);
+            this.Controls.Add(this.labelTues);
+            this.Controls.Add(this.labelMon);
+            this.Controls.Add(this.labelSun);
+            this.Controls.Add(this.panel28);
+            this.Controls.Add(this.buttonPreviousMonth);
+            this.Controls.Add(this.buttonNextMonth);
+            this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "frmMain";
-            this.ShowIcon = false;
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.panel39.ResumeLayout(false);
-            this.panel39.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel28.ResumeLayout(false);
+            this.panel28.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -561,6 +501,62 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label lbEvent4;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Panel panel40;
+        private System.Windows.Forms.Panel panel41;
+        private System.Windows.Forms.Panel panel42;
+        private System.Windows.Forms.Panel panel43;
+        private System.Windows.Forms.Panel panel44;
+        private System.Windows.Forms.Panel panel45;
+        private System.Windows.Forms.Panel panel46;
+        private System.Windows.Forms.Button buttonNextMonth;
+        private System.Windows.Forms.Button buttonPreviousMonth;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.Panel panel47;
+        private System.Windows.Forms.Panel panel48;
+        private System.Windows.Forms.Panel panel49;
+        private System.Windows.Forms.Panel panel50;
+        private System.Windows.Forms.Panel panel51;
+        private System.Windows.Forms.Panel panel52;
+        private System.Windows.Forms.Panel panel53;
+        private System.Windows.Forms.Panel panel54;
+        private System.Windows.Forms.Panel panel55;
+        private System.Windows.Forms.Panel panel56;
+        private System.Windows.Forms.Panel panel57;
+        private System.Windows.Forms.Panel panel58;
+        private System.Windows.Forms.Panel panel59;
+        private System.Windows.Forms.Panel panel60;
+        private System.Windows.Forms.Panel panel61;
+        private System.Windows.Forms.Panel panel62;
+        private System.Windows.Forms.Panel panel63;
+        private System.Windows.Forms.Panel panel64;
+        private System.Windows.Forms.Panel panel65;
+        private System.Windows.Forms.Panel panel66;
+        private System.Windows.Forms.Panel panel67;
+        private System.Windows.Forms.Panel panel68;
+        private System.Windows.Forms.Panel panel69;
+        private System.Windows.Forms.Panel panel70;
+        private System.Windows.Forms.Panel panel71;
+        private System.Windows.Forms.Panel panel72;
+        private System.Windows.Forms.Panel panel73;
+        private System.Windows.Forms.Panel panel74;
+        private System.Windows.Forms.Label labelSun;
+        private System.Windows.Forms.Label labelMon;
+        private System.Windows.Forms.Label labelTues;
+        private System.Windows.Forms.Label labelMonth;
+        private System.Windows.Forms.Label labelWeds;
+        private System.Windows.Forms.Label labelThurs;
+        private System.Windows.Forms.Label labelFri;
+        private System.Windows.Forms.Label labelSat;
+        private System.Windows.Forms.Label labelEvent1;
+        private System.Windows.Forms.Label labelEvent2;
+        private System.Windows.Forms.Label labelEvent3;
+        private System.Windows.Forms.Label labelEvent4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label labelEventLists;
     }
 }
 

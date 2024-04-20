@@ -41,6 +41,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbEvent
@@ -89,14 +90,14 @@
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(434, 23);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(354, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(427, 26);
             this.dateTimePicker1.TabIndex = 5;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Location = new System.Drawing.Point(434, 102);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(354, 26);
+            this.dateTimePicker2.Size = new System.Drawing.Size(427, 26);
             this.dateTimePicker2.TabIndex = 6;
             // 
             // lbStartDate
@@ -150,12 +151,22 @@
             this.richTextBox2.TabIndex = 12;
             this.richTextBox2.Text = "";
             // 
+            // buttonClose
+            // 
+            this.buttonClose.Location = new System.Drawing.Point(860, 583);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.TabIndex = 13;
+            this.buttonClose.Text = "Close\r\n";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            // 
             // Event
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1002, 650);
+            this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
@@ -191,5 +202,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Button buttonClose;
     }
 }

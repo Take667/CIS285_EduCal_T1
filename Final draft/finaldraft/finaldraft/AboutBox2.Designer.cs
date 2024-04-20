@@ -137,7 +137,7 @@
             this.textBoxDescription.Size = new System.Drawing.Size(406, 193);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "Carstatphen Shamar \r\nTyas Jeane Andrew \r\nKnight Tony \r\nJoshua Sawyer\r\n";
+            this.textBoxDescription.Text = "Carstatphen Shamar \r\nTyas Chaney\r\nJeane Andrew \r\nKnight Tony \r\nJoshua Sawyer\r\n";
             // 
             // closeButton
             // 
