@@ -1,0 +1,2 @@
+C:\WORKING\Draft3\obj\Debug\EduCal (7).csproj.AssemblyReference.cache
+C:\WORKING\Draft3\obj\Debug\EduCal (7).csproj.SuggestedBindingRedirects.cache

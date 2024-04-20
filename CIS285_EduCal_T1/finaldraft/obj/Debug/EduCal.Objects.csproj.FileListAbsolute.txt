@@ -1,0 +1,2 @@
+C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.Objects.csproj.AssemblyReference.cache
+C:\Users\khali\Downloads\finaldraft\obj\Debug\EduCal.Objects.csproj.CoreCompileInputs.cache
