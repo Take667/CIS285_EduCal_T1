@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1141, 12</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 2</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbMonth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="lbMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 28</value>
+  </data>
+  <data name="lbMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 40</value>
+  </data>
+  <data name="lbMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbMonth.Text" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="&gt;&gt;lbMonth.Name" xml:space="preserve">
+    <value>lbMonth</value>
+  </data>
+  <data name="&gt;&gt;lbMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbMonth.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbMonth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 97</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>881, 82</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel17.Name" xml:space="preserve">
+    <value>panel17</value>
+  </data>
+  <data name="&gt;&gt;panel17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel17.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel17.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel13.Name" xml:space="preserve">
+    <value>panel13</value>
+  </data>
+  <data name="&gt;&gt;panel13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel13.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel13.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel14.Name" xml:space="preserve">
+    <value>panel14</value>
+  </data>
+  <data name="&gt;&gt;panel14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel14.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel14.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panel15.Name" xml:space="preserve">
+    <value>panel15</value>
+  </data>
+  <data name="&gt;&gt;panel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel15.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel15.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel16.Name" xml:space="preserve">
+    <value>panel16</value>
+  </data>
+  <data name="&gt;&gt;panel16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel16.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel16.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;panel18.Name" xml:space="preserve">
+    <value>panel18</value>
+  </data>
+  <data name="&gt;&gt;panel18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel18.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel18.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panel19.Name" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel19.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel19.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panel20.Name" xml:space="preserve">
+    <value>panel20</value>
+  </data>
+  <data name="&gt;&gt;panel20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel20.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel20.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panel21.Name" xml:space="preserve">
+    <value>panel21</value>
+  </data>
+  <data name="&gt;&gt;panel21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel21.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel21.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel22.Name" xml:space="preserve">
+    <value>panel22</value>
+  </data>
+  <data name="&gt;&gt;panel22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel22.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel22.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel23.Name" xml:space="preserve">
+    <value>panel23</value>
+  </data>
+  <data name="&gt;&gt;panel23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel23.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel23.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panel24.Name" xml:space="preserve">
+    <value>panel24</value>
+  </data>
+  <data name="&gt;&gt;panel24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel24.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel24.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;panel25.Name" xml:space="preserve">
+    <value>panel25</value>
+  </data>
+  <data name="&gt;&gt;panel25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel25.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel25.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;panel26.Name" xml:space="preserve">
+    <value>panel26</value>
+  </data>
+  <data name="&gt;&gt;panel26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel26.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel26.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;panel27.Name" xml:space="preserve">
+    <value>panel27</value>
+  </data>
+  <data name="&gt;&gt;panel27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel27.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel27.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;panel28.Name" xml:space="preserve">
+    <value>panel28</value>
+  </data>
+  <data name="&gt;&gt;panel28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel28.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel28.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;panel29.Name" xml:space="preserve">
+    <value>panel29</value>
+  </data>
+  <data name="&gt;&gt;panel29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel29.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel29.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;panel30.Name" xml:space="preserve">
+    <value>panel30</value>
+  </data>
+  <data name="&gt;&gt;panel30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel30.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel30.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;panel31.Name" xml:space="preserve">
+    <value>panel31</value>
+  </data>
+  <data name="&gt;&gt;panel31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel31.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel31.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;panel32.Name" xml:space="preserve">
+    <value>panel32</value>
+  </data>
+  <data name="&gt;&gt;panel32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel32.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel32.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 185</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>881, 540</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 3</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 92</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 3</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 92</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 3</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 92</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 3</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 92</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 3</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 92</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 3</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 92</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 101</value>
+  </data>
+  <data name="panel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel17.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel17.Name" xml:space="preserve">
+    <value>panel17</value>
+  </data>
+  <data name="&gt;&gt;panel17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel17.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel17.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 101</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 101</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 101</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 101</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 92</value>
+  </data>
+  <data name="panel12.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="panel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 101</value>
+  </data>
+  <data name="panel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel13.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel13.Name" xml:space="preserve">
+    <value>panel13</value>
+  </data>
+  <data name="&gt;&gt;panel13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel13.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel13.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="panel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>739, 101</value>
+  </data>
+  <data name="panel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 92</value>
+  </data>
+  <data name="panel14.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel14.Name" xml:space="preserve">
+    <value>panel14</value>
+  </data>
+  <data name="&gt;&gt;panel14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel14.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel14.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="panel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 199</value>
+  </data>
+  <data name="panel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel15.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panel15.Name" xml:space="preserve">
+    <value>panel15</value>
+  </data>
+  <data name="&gt;&gt;panel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel15.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel15.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="panel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 199</value>
+  </data>
+  <data name="panel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel16.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panel16.Name" xml:space="preserve">
+    <value>panel16</value>
+  </data>
+  <data name="&gt;&gt;panel16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel16.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel16.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="panel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 199</value>
+  </data>
+  <data name="panel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel18.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel18.Name" xml:space="preserve">
+    <value>panel18</value>
+  </data>
+  <data name="&gt;&gt;panel18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel18.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel18.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="panel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 199</value>
+  </data>
+  <data name="panel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel19.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;panel19.Name" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;panel19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel19.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel19.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="panel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 199</value>
+  </data>
+  <data name="panel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel20.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panel20.Name" xml:space="preserve">
+    <value>panel20</value>
+  </data>
+  <data name="&gt;&gt;panel20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel20.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel20.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="panel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 199</value>
+  </data>
+  <data name="panel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel21.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panel21.Name" xml:space="preserve">
+    <value>panel21</value>
+  </data>
+  <data name="&gt;&gt;panel21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel21.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel21.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="panel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 199</value>
+  </data>
+  <data name="panel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 92</value>
+  </data>
+  <data name="panel22.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panel22.Name" xml:space="preserve">
+    <value>panel22</value>
+  </data>
+  <data name="&gt;&gt;panel22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel22.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel22.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="panel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 297</value>
+  </data>
+  <data name="panel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel23.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel23.Name" xml:space="preserve">
+    <value>panel23</value>
+  </data>
+  <data name="&gt;&gt;panel23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel23.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel23.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="panel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 297</value>
+  </data>
+  <data name="panel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel24.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel24.Name" xml:space="preserve">
+    <value>panel24</value>
+  </data>
+  <data name="&gt;&gt;panel24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel24.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel24.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="panel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 297</value>
+  </data>
+  <data name="panel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel25.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panel25.Name" xml:space="preserve">
+    <value>panel25</value>
+  </data>
+  <data name="&gt;&gt;panel25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel25.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel25.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="panel26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 297</value>
+  </data>
+  <data name="panel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel26.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;panel26.Name" xml:space="preserve">
+    <value>panel26</value>
+  </data>
+  <data name="&gt;&gt;panel26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel26.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel26.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="panel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 297</value>
+  </data>
+  <data name="panel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel27.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;panel27.Name" xml:space="preserve">
+    <value>panel27</value>
+  </data>
+  <data name="&gt;&gt;panel27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel27.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel27.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="panel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 297</value>
+  </data>
+  <data name="panel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel28.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;panel28.Name" xml:space="preserve">
+    <value>panel28</value>
+  </data>
+  <data name="&gt;&gt;panel28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel28.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel28.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="panel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>735, 297</value>
+  </data>
+  <data name="panel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 92</value>
+  </data>
+  <data name="panel29.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;panel29.Name" xml:space="preserve">
+    <value>panel29</value>
+  </data>
+  <data name="&gt;&gt;panel29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel29.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel29.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="panel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 395</value>
+  </data>
+  <data name="panel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel30.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;panel30.Name" xml:space="preserve">
+    <value>panel30</value>
+  </data>
+  <data name="&gt;&gt;panel30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel30.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel30.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel31.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 395</value>
+  </data>
+  <data name="panel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel31.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;panel31.Name" xml:space="preserve">
+    <value>panel31</value>
+  </data>
+  <data name="&gt;&gt;panel31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel31.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel31.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="panel32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 395</value>
+  </data>
+  <data name="panel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 92</value>
+  </data>
+  <data name="panel32.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;panel32.Name" xml:space="preserve">
+    <value>panel32</value>
+  </data>
+  <data name="&gt;&gt;panel32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel32.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;panel32.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1220, 729</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Education Calendar</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
