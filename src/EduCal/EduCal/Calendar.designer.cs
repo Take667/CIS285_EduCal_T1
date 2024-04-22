@@ -42,7 +42,7 @@ namespace EduCal
             this.lblMonthYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMonthYear.Location = new System.Drawing.Point(12, 9);
             this.lblMonthYear.Name = "lblMonthYear";
-            this.lblMonthYear.Size = new System.Drawing.Size(152, 24);
+            this.lblMonthYear.Size = new System.Drawing.Size(229, 32);
             this.lblMonthYear.TabIndex = 0;
             this.lblMonthYear.Text = "Month and Year";
             // 
@@ -50,7 +50,7 @@ namespace EduCal
             // 
             this.flowLayoutPanel.Location = new System.Drawing.Point(12, 42);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(360, 208);
+            this.flowLayoutPanel.Size = new System.Drawing.Size(380, 399);
             this.flowLayoutPanel.TabIndex = 1;
             // 
             // btnNextMonth
@@ -73,7 +73,7 @@ namespace EduCal
             this.btnPrevMonth.UseVisualStyleBackColor = true;
             this.btnPrevMonth.Click += new System.EventHandler(this.btnPrevMonth_Click);
             // 
-            // CalendarForm
+            // Calendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

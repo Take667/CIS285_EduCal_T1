@@ -26,6 +26,7 @@ namespace EduCal
         {
             currentMonth = DateTime.Now;
             UpdateCalendar();
+            Show();
         }
 
 
@@ -80,34 +81,38 @@ namespace EduCal
             eventDisplayForm.Show();
         }
 
-        private List<EventForm> GetEventsForDate(DateTime selectedDate, List<EventForm> eventsList)
+        /* private List<EventForm> GetEventsForDate(DateTime selectedDate, List<EventForm> eventsList)
+         {
+             List<EventForm> eventsForSelectedDay = new List<EventForm>();
+
+             foreach (EventForm eventForm in eventsList)
+             {
+                 // Check if the day of the month is the same
+                 if (eventForm.StartDate.Date.Day == selectedDate.Day)
+                 {
+                     // TODO: Add any additional conditions if needed
+                     eventsForSelectedDay.Add(eventForm);
+                 }
+             }
+
+             return eventsForSelectedDay;
+         }*/
+
+        private void UpdateMonth(int monthChange)
         {
-            List<EventForm> eventsForSelectedDay = new List<EventForm>();
-
-            foreach (EventForm eventForm in eventsList)
-            {
-                // Check if the day of the month is the same
-                if (eventForm.StartDate.Date.Day == selectedDate.Day)
-                {
-                    // TODO: Add any additional conditions if needed
-                    eventsForSelectedDay.Add(eventForm);
-                }
-            }
-
-            return eventsForSelectedDay;
+            currentMonth = currentMonth.AddMonths(monthChange);
+            UpdateCalendar();
         }
-
 
         private void btnNextMonth_Click(object sender, EventArgs e)
         {
-            currentMonth = currentMonth.AddMonths(1);
-            UpdateCalendar();
+            UpdateMonth(1); // Move to the next month (increase by 1)
         }
 
         private void btnPrevMonth_Click(object sender, EventArgs e)
         {
-            currentMonth = currentMonth.AddMonths(-1);
-            UpdateCalendar();
+            UpdateMonth(-1); // Move to the previous month (decrease by 1)
         }
+
     }
 }

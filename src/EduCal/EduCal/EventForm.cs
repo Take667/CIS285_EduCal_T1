@@ -24,7 +24,7 @@ namespace EduCal
         private Button btnAdd;
 
         // Event Fields
-      
+
         public string Title { get; set; }
         public string ShortDescription { get; set; }
         public string LongDescription { get; set; }
@@ -48,30 +48,6 @@ namespace EduCal
         }
 
 
-        public class RecurrencePattern
-        {
-            public RecurrenceType Type { get; set; }
-            public int OccurrenceCount { get; set; }
-            public DateTime? EndDate { get; set; }
-            public List<DayOfWeek> RepeatOnDays { get; set; }
-
-            public RecurrencePattern()
-            {
-                RepeatOnDays = new List<DayOfWeek>();
-            }
-        }
-
-        public enum RecurrenceType
-        {
-            OnceOnSingleDay,
-            OnceWholeWeek,
-            MonthlyRepeating,
-            MonthlyOnSpecificDays,
-        }
-
-
-
-
         // Method to retrieve the created event
         public EventForm GetEvent()
         {
@@ -91,7 +67,7 @@ namespace EduCal
 
             return newEvent;
         }
-     
+
 
 
 

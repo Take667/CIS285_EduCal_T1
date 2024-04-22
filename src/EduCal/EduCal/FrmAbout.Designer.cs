@@ -99,7 +99,7 @@ namespace EduCal
             this.menuStrip2.Location = new System.Drawing.Point(9, 9);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(0);
-            this.menuStrip2.Size = new System.Drawing.Size(417, 29);
+            this.menuStrip2.Size = new System.Drawing.Size(417, 36);
             this.menuStrip2.TabIndex = 1;
             // 
             // mnuEditToolStripMenuItem
@@ -198,7 +198,7 @@ namespace EduCal
             this.textBoxDescription.Size = new System.Drawing.Size(271, 180);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "Carstarphen, Shamar\r\nChaney, Tyas\r\nHaines, Coleman\r\nKnight, Tony\r\nSawyer, Josh";
+            this.textBoxDescription.Text = "Carstarphen, Shamar\r\nChaney, Tyas\r\nKnight, Tony\r\nSawyer, Josh";
             this.textBoxDescription.TextChanged += new System.EventHandler(this.textBoxDescription_TextChanged);
             // 
             // frmAbout

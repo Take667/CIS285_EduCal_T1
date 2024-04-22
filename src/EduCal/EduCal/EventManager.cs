@@ -12,6 +12,6 @@ namespace EduCal
             EventsList.Add(newEvent);
         }
 
-        // Add other methods for managing events as needed
+  
     }
 }
