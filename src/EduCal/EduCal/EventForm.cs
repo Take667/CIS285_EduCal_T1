@@ -232,7 +232,7 @@ namespace EduCal
         }
 
 
-        private void txtTitle_TextChanged(object sender, EventArgs e)
+        
         {
 
         }
