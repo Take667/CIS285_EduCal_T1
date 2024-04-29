@@ -64,21 +64,18 @@ namespace EduCal
                 flowLayoutPanel.Controls.Add(dayButton);
             }
         }
-       
+
 
         private void DayButton_Click(object sender, EventArgs e)
         {
             Button clickedButton = (Button)sender;
             DateTime selectedDate = (DateTime)clickedButton.Tag;
 
-            // Get the events for the selected date from the centralized EventsList
-            List<EventForm> eventsForDate = EventManager.EventsList
-                .Where(ev => ev.StartDate.Date == selectedDate.Date)
-                .ToList();
+            // Create a new instance of EventForm
+            EventForm eventForm = new EventForm(selectedDate);
 
-            // Display the events using the new form
-            EventDisplayForm eventDisplayForm = new EventDisplayForm(selectedDate.ToShortDateString(), eventsForDate);
-            eventDisplayForm.Show();
+            // Show the EventForm for entering new event details
+            eventForm.Show();
         }
 
         /* private List<EventForm> GetEventsForDate(DateTime selectedDate, List<EventForm> eventsList)

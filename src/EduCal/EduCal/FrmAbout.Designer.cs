@@ -96,10 +96,10 @@ namespace EduCal
             this.mnuEditToolStripMenuItem,
             this.editToolStripMenuItem,
             this.aboutToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(9, 9);
+            this.menuStrip2.Location = new System.Drawing.Point(14, 14);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(0);
-            this.menuStrip2.Size = new System.Drawing.Size(417, 36);
+            this.menuStrip2.Size = new System.Drawing.Size(624, 29);
             this.menuStrip2.TabIndex = 1;
             // 
             // mnuEditToolStripMenuItem
@@ -126,10 +126,10 @@ namespace EduCal
             this.statusMain.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusMain.Location = new System.Drawing.Point(9, 359);
+            this.statusMain.Location = new System.Drawing.Point(14, 564);
             this.statusMain.Name = "statusMain";
-            this.statusMain.Padding = new System.Windows.Forms.Padding(1, 0, 9, 0);
-            this.statusMain.Size = new System.Drawing.Size(417, 22);
+            this.statusMain.Padding = new System.Windows.Forms.Padding(2, 0, 14, 0);
+            this.statusMain.Size = new System.Drawing.Size(624, 22);
             this.statusMain.SizingGrip = false;
             this.statusMain.TabIndex = 0;
             // 
@@ -147,7 +147,8 @@ namespace EduCal
             this.tableLayoutPanel.Controls.Add(this.labelVersion, 1, 2);
             this.tableLayoutPanel.Controls.Add(this.textBoxDescription, 1, 4);
             this.tableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel.Location = new System.Drawing.Point(9, 9);
+            this.tableLayoutPanel.Location = new System.Drawing.Point(14, 14);
+            this.tableLayoutPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel.Name = "tableLayoutPanel";
             this.tableLayoutPanel.RowCount = 6;
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.80368F));
@@ -156,7 +157,7 @@ namespace EduCal
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(417, 372);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(624, 572);
             this.tableLayoutPanel.TabIndex = 0;
             this.tableLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel_Paint);
             // 
@@ -164,11 +165,11 @@ namespace EduCal
             // 
             this.labelProductName.AutoSize = true;
             this.labelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelProductName.Location = new System.Drawing.Point(143, 51);
-            this.labelProductName.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.labelProductName.MaximumSize = new System.Drawing.Size(0, 32);
+            this.labelProductName.Location = new System.Drawing.Point(214, 79);
+            this.labelProductName.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
+            this.labelProductName.MaximumSize = new System.Drawing.Size(0, 49);
             this.labelProductName.Name = "labelProductName";
-            this.labelProductName.Size = new System.Drawing.Size(271, 21);
+            this.labelProductName.Size = new System.Drawing.Size(406, 33);
             this.labelProductName.TabIndex = 19;
             this.labelProductName.Text = "Education Calendar\r\n";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -177,11 +178,11 @@ namespace EduCal
             // 
             this.labelVersion.AutoSize = true;
             this.labelVersion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelVersion.Location = new System.Drawing.Point(143, 72);
-            this.labelVersion.Margin = new System.Windows.Forms.Padding(6, 0, 3, 0);
-            this.labelVersion.MaximumSize = new System.Drawing.Size(0, 32);
+            this.labelVersion.Location = new System.Drawing.Point(214, 112);
+            this.labelVersion.Margin = new System.Windows.Forms.Padding(9, 0, 4, 0);
+            this.labelVersion.MaximumSize = new System.Drawing.Size(0, 49);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(271, 32);
+            this.labelVersion.Size = new System.Drawing.Size(406, 49);
             this.labelVersion.TabIndex = 0;
             this.labelVersion.Text = "2024.04";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -189,13 +190,13 @@ namespace EduCal
             // textBoxDescription
             // 
             this.textBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxDescription.Location = new System.Drawing.Point(143, 149);
-            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
+            this.textBoxDescription.Location = new System.Drawing.Point(214, 231);
+            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(9, 5, 4, 5);
             this.textBoxDescription.Multiline = true;
             this.textBoxDescription.Name = "textBoxDescription";
             this.textBoxDescription.ReadOnly = true;
             this.textBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxDescription.Size = new System.Drawing.Size(271, 180);
+            this.textBoxDescription.Size = new System.Drawing.Size(406, 277);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
             this.textBoxDescription.Text = "Carstarphen, Shamar\r\nChaney, Tyas\r\nKnight, Tony\r\nSawyer, Josh";
@@ -203,18 +204,19 @@ namespace EduCal
             // 
             // frmAbout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 390);
+            this.ClientSize = new System.Drawing.Size(652, 600);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.statusMain);
             this.Controls.Add(this.tableLayoutPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip2;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmAbout";
-            this.Padding = new System.Windows.Forms.Padding(9);
+            this.Padding = new System.Windows.Forms.Padding(14, 14, 14, 14);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

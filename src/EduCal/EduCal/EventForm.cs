@@ -22,6 +22,7 @@ namespace EduCal
         private DateTimePicker dateTimePicker1;
         private TextBox txtLocation;
         private Button btnAdd;
+        private DateTime selectedDate; 
 
         // Event Fields
 
@@ -32,8 +33,6 @@ namespace EduCal
         public DateTime? EndDate { get; set; } // Nullable if applicable
         public string Location { get; set; }
 
-        // New properties for event repetition
-        public RecurrencePattern Recurrence { get; set; }
 
         // Color coordination properties
         public string Color { get; set; }
@@ -41,10 +40,17 @@ namespace EduCal
         // Categorization properties
         public List<string> Categories { get; set; } = new List<string>();
 
+        // Parameterless constructor
         public EventForm()
         {
-            // Initialize your form components here
             InitializeComponent();
+        }
+
+        // Constructor that takes a DateTime parameter
+        public EventForm(DateTime date) : this()
+        {
+            selectedDate = date;
+            // Optionally, you can use the selectedDate to initialize any date-related fields in the form
         }
 
 
@@ -60,7 +66,6 @@ namespace EduCal
                 StartDate = this.StartDate,
                 EndDate = this.EndDate,
                 Location = this.Location,
-                Recurrence = this.Recurrence,
                 Color = this.Color,
                 Categories = this.Categories
             };
