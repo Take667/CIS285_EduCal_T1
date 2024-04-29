@@ -214,7 +214,10 @@ namespace EduCal
             this.PerformLayout();
         }
 
-
+        private void txtTitle_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -233,8 +236,8 @@ namespace EduCal
 
 
         
-        {
+        
 
         }
     }
-}
+
